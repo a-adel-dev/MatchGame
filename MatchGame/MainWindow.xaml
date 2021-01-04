@@ -6,20 +6,20 @@
         xmlns:local="clr-namespace:MatchGame"
         mc:Ignorable="d"
         Title="Find all of the match" Height="450" Width="400">
-    <Grid x:Name="mainGrid">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-        </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
-        </Grid.RowDefinitions>
+	<Grid x:Name="mainGrid">
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition/>
+			<ColumnDefinition/>
+			<ColumnDefinition/>
+			<ColumnDefinition/>
+		</Grid.ColumnDefinitions>
+		<Grid.RowDefinitions>
+			<RowDefinition/>
+			<RowDefinition/>
+			<RowDefinition/>
+			<RowDefinition/>
+			<RowDefinition/>
+		</Grid.RowDefinitions>
         <TextBlock x:Name="textBlock00" Grid.Column="0" HorizontalAlignment="Center" Grid.Row="0" Text="?" VerticalAlignment="Center" FontSize="36" MouseDown="textBlock00_MouseDown"/>
         <TextBlock x:Name="textBlock01" Grid.Column="0" HorizontalAlignment="Center" Grid.Row="1" Text="?" VerticalAlignment="Center" FontSize="36" MouseDown="textBlock00_MouseDown"/>
         <TextBlock x:Name="textBlock02" Grid.Column="0" HorizontalAlignment="Center" Grid.Row="2" Text="?" VerticalAlignment="Center" FontSize="36" MouseDown="textBlock00_MouseDown"/>
@@ -37,7 +37,6 @@
         <TextBlock x:Name="textBlock32" Grid.Column="3" HorizontalAlignment="Center" Grid.Row="2" Text="?" VerticalAlignment="Center" FontSize="36" MouseDown="textBlock00_MouseDown"/>
         <TextBlock x:Name="textBlock33" Grid.Column="3" HorizontalAlignment="Center" Grid.Row="3" Text="?" VerticalAlignment="Center" FontSize="36" MouseDown="textBlock00_MouseDown"/>
         <TextBlock x:Name="timeTextBlock" Grid.ColumnSpan="4" HorizontalAlignment="Center" Text="Elapsed time" TextWrapping="Wrap" VerticalAlignment="Center" FontSize="36" Grid.Row="4" MouseDown="timeTextBlock_MouseDown"/>
-
 
 
     </Grid>
